@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1300px){
+
+    .menu-mobile {
+        background: white;
+        position: relative;
+        padding :0;
+        padding-left: 16px;
+        padding-top:40px ;
+    }
+    .sub-menu-mobile {
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        transition: all 0.5s;
+        top: -56px;
+        padding:0;
+        height: 90vh;
+    }
+    .sub-menu-mobile.open {
+        left: 0;
+        top: -56px;
+        padding:0;
+        margin: 0;
+        background: white;
+        z-index: 1000;
+        position: absolute;
+        bottom: 0;
+    }
+    .open{
+        position: absolute;
+        background: white;
+        z-index: 1000;
+        bottom:0
+    }
+    .back-to-main{
+        cursor: pointer;
+        height: fit-content;
+        padding-left: 21px;
+        padding-right:13px ;
+    }
+    .m-top-flex{
+        display: flex;
+        padding-top:27px ;
+    }
+    .menu-item-title{
+        margin-bottom: 24px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        height: fit-content;
+        color: #000000;
+    }
+    .submenu-item-title{
+        margin-top: 40px;
+        margin-bottom: 16px;
+        margin-left: -26px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    .menu-item-mobile{
+        background-color: white;
+    }
+    .inside{
+        background: transparent;
+        margin-left: -26px;
+        margin-bottom:16px;
+    }
+    .head-menu-title{
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 24px;
+    }
+    li.menu-item-mobile.head-menu-title a{
+        color: #000000;
+    }
+    li.menu-item-mobile.inside a{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #0067CB;
+    }
+    li.menu-item-mobile.head-menu-title a img{
+        position: absolute;
+        right: 0;
+        margin-right: 21px;
+    }
+
+}
